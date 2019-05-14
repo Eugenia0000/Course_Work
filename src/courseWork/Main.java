@@ -21,7 +21,6 @@ public class Main {
         long executeTimeParallel = endTimeParallel - startTimeParallel;
         for (int i = 0; i < dyffur.getTPointsQuantity(); ++i) {
             for (int j = 0; j < dyffur.getHPointsQuantity(); ++j) {
-                //	parallelSolve[i][j] = Math.abs(parallelSolve[i][j] - serialSolve[i][j]);
 
                 System.out.print(String.format("%.7f\t", parallelSolve[i][j]));
             }
