@@ -10,7 +10,7 @@ public class Dyffur {
     private final double tau = 1.0 / 300;
     private final double a = -1;
     private final double b = 0.00008;
-    private final double C = 5.0;
+    private final double C = 5;
 
     public double getX0() {
         return x0;
@@ -57,16 +57,24 @@ public class Dyffur {
 
     public double calculateApproximateSolution(double wLeft, double wCurrent, double wRight) {
         double sigma = tau / Math.pow(h, 2);
-        return wCurrent + sigma * (wRight - 2 * wCurrent + wLeft) + a * tau * wCurrent + b * tau * Math.pow(wCurrent, 2);
+        return wCurrent + sigma * (wLeft - 2 * wCurrent + wRight) + a * tau * wCurrent + b * tau * Math.pow(wCurrent, 2);
     }
 
     public void printMatrix(double[][] matrix) {
+        System.out.print("{");
         for (int i = 0; i < matrix.length; ++i) {
+            System.out.print("{");
             for (int j = 0; j < matrix[i].length; ++j) {
-                System.out.print(String.format("%.7f\t", matrix[i][j]));
+                System.out.print(matrix[i][j]);
+                if (j != matrix[i].length - 1) System.out.print(",");
             }
+            if (i != matrix.length - 1) {
+                System.out.print("},");
+            } else System.out.print("}");
             System.out.println();
         }
+        System.out.print("}");
     }
+
 
 }
