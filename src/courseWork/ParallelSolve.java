@@ -33,10 +33,9 @@ public class ParallelSolve {
 
         for (int i = 1; i < TPointsQuantity; ++i, t += tau) {
             w[i][0] = dyffur.calculateLeftBorder(t);
-            AtomicInteger ai = new AtomicInteger(i);
+            int k = i;
             IntStream.range(1, dyffur.getHPointsQuantity()-1).parallel().forEach(j -> {
-                int m=ai.get();
-                w[m][j] = dyffur.calculateApproximateSolution(w[m-1][j-1],w[m-1][j],w[m-1][j+1]);
+                w[k][j] = dyffur.calculateApproximateSolution(w[k-1][j-1],w[k-1][j],w[k-1][j+1]);
             });
             w[i][HPointsQuantity - 1] = dyffur.calculateRightBorder(t);
         }

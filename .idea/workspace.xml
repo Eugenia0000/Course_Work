@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eeba1915-aa16-43d2-96e0-a23ca85765fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kursa4/courseWork/Dyffur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kursa4/courseWork/Dyffur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kursa4/courseWork/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kursa4/courseWork/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/courseWork/Dyffur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/courseWork/Dyffur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/courseWork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/courseWork/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kursa4/courseWork/ParallelSolve.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kursa4/courseWork/ParallelSolve.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/courseWork/ParallelSolve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/courseWork/ParallelSolve.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,20 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/courseWork/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2311">
-              <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+            <state relative-caret-position="2511">
+              <caret line="149" selection-start-line="149" selection-end-line="149" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/courseWork/ParallelSolve.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="353">
+              <caret line="36" column="87" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -47,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/courseWork/Dyffur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="561">
               <caret line="78" selection-start-line="78" selection-end-line="78" />
             </state>
           </provider>
@@ -73,17 +71,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/courseWork/Diffur.java" />
-        <option value="$PROJECT_DIR$/src/courseWork/ParallelSolve.java" />
         <option value="$PROJECT_DIR$/src/courseWork/SerialSolve.java" />
         <option value="$PROJECT_DIR$/src/courseWork/Main.java" />
         <option value="$PROJECT_DIR$/src/courseWork/Dyffur.java" />
+        <option value="$PROJECT_DIR$/src/courseWork/ParallelSolve.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -91,8 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,11 +111,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557842990703" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../+/курсачи/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../+/курсачи/v" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -189,7 +187,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12013423" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -198,7 +196,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04674221" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.10623229" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -232,24 +230,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/courseWork/ParallelSolve.java">
+    <entry file="file://$PROJECT_DIR$/src/courseWork/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="2511">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/courseWork/Dyffur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="561">
           <caret line="78" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/courseWork/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/courseWork/ParallelSolve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2311">
-          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+        <state relative-caret-position="353">
+          <caret line="36" column="87" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
         </state>
       </provider>
     </entry>
